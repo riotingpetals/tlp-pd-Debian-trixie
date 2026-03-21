@@ -13,14 +13,14 @@ Avoid editing debian.sources and instead create a new file with the .sources ext
 debian-backports.sources
 
 Open with your favorite text editor and enter the following:
-
+```
 Types: deb deb-src <br>
 URIs: http://deb.debian.org/debian <br>
 Suites: trixie-backports <br>
 Components: main <br>
 Enabled: yes <br>
 Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg <br>
-
+```
 ## Installing tlp-pd from backports repository
 
 `sudo apt -t trixie-backports install tlp tlp-pd tlp-rdw`
