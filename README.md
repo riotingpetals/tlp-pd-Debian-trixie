@@ -7,8 +7,11 @@ tlp-pd would not install from standard Debian sources.
 This readme shows how to add the backports repository and install tlp-pd
 
 ## Add reposirtory
-Fisrt navigate to /etc/apt/sources.list.d
-Now we create a file named debian-backports.sources
+This is done using deb822 formatting for clarity and security.
+First we navigate to /etc/apt/sources.list.d
+Avoid editing debian.sources and instead create a new file with the .sources extension such as
+debian-backports.sources
+
 Open with your favorite text editor and enter the following:
 
 Types: deb deb-src <br>
