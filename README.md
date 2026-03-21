@@ -11,12 +11,12 @@ Fisrt navigate to /etc/apt/sources.list.d
 Now we create a file named debian-backports.sources
 Open with your favorite text editor and enter the following:
 
-Types: deb deb-src
-URIs: http://deb.debian.org/debian
-Suites: trixie-backports
-Components: main
-Enabled: yes
-Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+Types: deb deb-src <br>
+URIs: http://deb.debian.org/debian <br>
+Suites: trixie-backports <br>
+Components: main <br>
+Enabled: yes <br>
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg <br>
 
 ## Installing tlp-pd from backports repository
 
