@@ -9,8 +9,8 @@ This readme shows how to add the backports repository and install tlp-pd <br>
 ## Add reposirtory
 This is done using deb822 formatting for clarity and security. <br>
 First we navigate to `/etc/apt/sources.list.d` <br>
-Avoid editing debian.sources and instead create a new file with the .sources extension such as
-debian-backports.sources
+Avoid editing `debian.sources` and instead create a new file with the `.sources` extension such as
+`debian-backports.sources`
 
 Open with your favorite text editor and enter the following:
 ```
